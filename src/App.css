@@ -1,38 +1,155 @@
-.App {
+.header {
+  font-size: 1.4rem;
   text-align: center;
+  background-color: aqua;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-decoration-line: none;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.page-card {
+  color: white;
+font-size: 1.6rem;
+text-decoration: none;
+background-color: lightgray;
+margin-bottom: 0.1rem;
+padding: 1rem;
+font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.homepage {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.beer-card {
+margin-bottom: 2rem;
+display: flex;
+padding: 2rem
+}
+
+.beer-card--info{
+  display:flex;
+  flex-direction: column;
+  padding-left: 1.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.beer-card--description{
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.beer-card--tagline{
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.beer-details{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.beer-details--image{
+  height: 20rem;
+  margin-bottom: 4rem;
+}
+
+.beer-card--name{
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.beer-card--image {
+  width: 8rem;
+}
+
+.beer-details--image {
+  width: 20rem;
+margin-bottom: 4rem;
+}
+
+.beer-details--info{
+display: flex;
+flex-direction: column;
+padding-left:1.5rem;
+text-decoration: none;
+color: black;
+}
+
+.beer-details{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+}
+
+.beer-card-tagline{
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.beer-details--name{
+  font-size: 1.4rem;
+ 
+}
+
+.beer-details--att-level{
+  font-size: 1.4rem;
+}
+
+
+.beer-details--description {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.beer-details--contributor{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.beer-details--row{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+padding-bottom: 1rem;
+font-size:1.4rem;
+}
+
+.new-beer-form {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+.new-beer-input{
+  font-size: 1.5rem;
+  width: 60%;
+  max-width: 800px;
+  margin-bottom: 1re
+}
+.new-beer-submit{
+  font-size: 1.4rem;
+  margin-top: 1rem;
   color: white;
+  background-color: aqua;
+  border-radius: 40px;
+  padding: 1rem;
+  font-weight: bold;
+  border: none;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.new-beer-submit:hover{
+  cursor: pointer;
 }
